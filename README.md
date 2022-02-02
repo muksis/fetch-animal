@@ -1,8 +1,8 @@
-# Random zoo animal facts
+# Random animal facts
 
 ## Description
 
-This project fetches random zoo animals' facts and pics from [here](https://zoo-animal-api.herokuapp.com). New animal is shown on every refresh. I used useState and useEffect hooks in this project.
+This project fetches random animals' facts and pics from [here](https://zoo-animal-api.herokuapp.com). New animal is shown on every refresh or with a click on the New Animal button. I used useState and useEffect hooks in this project.
 
 ## Roadmap of future improvements
 
