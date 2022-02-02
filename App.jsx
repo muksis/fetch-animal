@@ -23,6 +23,7 @@ function App() {
       <h2>Name: {name}</h2>
       <p>Habitat: {habitat}</p>
       <p>Diet: {diet}</p>
+      <button onClick={fetchData}>New Animal</button>
     </div>
   );
 }
