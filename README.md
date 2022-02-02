@@ -6,6 +6,6 @@ This project fetches random zoo animals' facts and pics from [here](https://zoo-
 
 ## Roadmap of future improvements
 
-Add a button to get new animal's info on every click.\
+Add a button to get new animal's info on every click. Done ✅ \
 Work on css.
  
