@@ -7,5 +7,6 @@ This project fetches random animals' facts and pics from [here](https://zoo-anim
 ## Roadmap of future improvements
 
 Add a button to get new animal's info on every click. Done ✅ \
+Add useEffect with localStorage so that a new animal is fetched only when the button is pressed.\
 Work on css.
  
