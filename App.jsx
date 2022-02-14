@@ -1,9 +1,9 @@
 function App() {
   const {useState, useEffect} = React;
-  const [image, setImage] = useState([]);
-  const [name, setName] = useState("");
-  const [habitat, setHabitat] = useState("");
-  const [diet, setDiet] = useState("");
+  const [image, setImage] = useState(() => localStorage.getItem("image"));
+  const [name, setName] = useState(() => localStorage.getItem("name"));
+  const [habitat, setHabitat] = useState(() => localStorage.getItem("habitat"));
+  const [diet, setDiet] = useState(() => localStorage.getItem("diet"));
 
   const fetchData = () => {
       fetch ("https://zoo-animal-api.herokuapp.com/animals/rand")
@@ -15,7 +15,22 @@ function App() {
         setDiet(data.diet)
       })
   };
-  useEffect(fetchData, []);
+
+  useEffect(()=> {
+    localStorage.setItem("image", image)
+  }, [image]);
+
+  useEffect(()=> {
+    localStorage.setItem("name", name)
+  }, [name]);
+
+  useEffect(()=> {
+    localStorage.setItem("habitat", habitat)
+  }, [habitat]);
+
+  useEffect(()=> {
+    localStorage.setItem("diet", diet)
+  }, [diet]);
 
   return (
     <div> 
