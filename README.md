@@ -7,6 +7,6 @@ This project fetches random animals' facts and pics from [here](https://zoo-anim
 ## Roadmap of future improvements
 
 Add a button to get new animal's info on every click. Done ✅ \
-Add localStorage. Done ✅\ 
+Add localStorage. Done ✅ \ 
 Work on css.
  
