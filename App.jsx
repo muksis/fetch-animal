@@ -16,6 +16,8 @@ function App() {
       })
   };
 
+  useEffect(fetchData, []);
+
   useEffect(()=> {
     localStorage.setItem("image", image)
   }, [image]);
