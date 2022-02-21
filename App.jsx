@@ -18,19 +18,19 @@ function App() {
 
   useEffect(fetchData, []);
 
-  useEffect(()=> {
+  useEffect(() => {
     localStorage.setItem("image", image)
   }, [image]);
 
-  useEffect(()=> {
+  useEffect(() => {
     localStorage.setItem("name", name)
   }, [name]);
 
-  useEffect(()=> {
+  useEffect(() => {
     localStorage.setItem("habitat", habitat)
   }, [habitat]);
 
-  useEffect(()=> {
+  useEffect(() => {
     localStorage.setItem("diet", diet)
   }, [diet]);
 
